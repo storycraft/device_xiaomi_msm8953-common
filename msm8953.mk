@@ -383,3 +383,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# HW crypto
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-ioctl-qti
