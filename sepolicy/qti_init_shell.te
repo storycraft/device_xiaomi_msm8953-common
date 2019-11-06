@@ -6,3 +6,7 @@ allow qti_init_shell bluetooth_data_file:file r_file_perms;
 
 allow qti_init_shell sysfs:dir setattr;
 allow qti_init_shell sysfs:file setattr;
+
+allow qti_init_shell sysfs_devfreq:dir setattr;
+allow qti_init_shell sysfs_ssr:file setattr;
+
