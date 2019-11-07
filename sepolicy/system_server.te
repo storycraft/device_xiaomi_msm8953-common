@@ -1,7 +1,15 @@
 #get_prop(system_server, vendor_camera_prop)
 
+allow system_server mm-qcamerad:binder call;
+
 # Input devices
 r_dir_file(system_server, idc_file);
 r_dir_file(system_server, keylayout_file);
 
 allow system_server sysfs_kgsl:file getattr;
+
+# Smart charging
+allow system_server sysfs_battery_supply:file
+
+allow system_server init:binder call;
+allow system_server sysfs:file { getattr open read }; { getattr open read write };
