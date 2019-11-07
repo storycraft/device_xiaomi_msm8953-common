@@ -56,14 +56,7 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libbt-hidlclient.so
 
-<<<<<<< HEAD
-# Bluetooth (shared dependencies)
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
-
-# Camera firmware
-=======
 # Camera firmware- - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
->>>>>>> 6ad4239... mido: FM: switch to QCOM FM implementation
 vendor/firmware/cpp_firmware_v1_8_0.fw
 vendor/firmware/cpp_firmware_v1_5_0.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
@@ -75,7 +68,6 @@ vendor/firmware/cpp_firmware_v1_12_0.fw
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
-
 
 # CNE
 etc/permissions/cneapiclient.xml
@@ -174,9 +166,6 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-<<<<<<< HEAD
-# Gatekeeper
-=======
 # DRM - Widevine - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
@@ -187,7 +176,6 @@ vendor/bin/fm_qsoc_patches
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
->>>>>>> 6ad4239... mido: FM: switch to QCOM FM implementation
 vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so
 
