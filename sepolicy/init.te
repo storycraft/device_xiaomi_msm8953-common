@@ -7,6 +7,7 @@ allow init hidl_base_hwservice:hwservice_manager add;
 allow init hwservicemanager:binder transfer;
 allow init persist_file:lnk_file read;
 allow init sysfs_leds:lnk_file read;
-allow init system_file:file execute_no_trans;
+allow init system_file:file { execute_no_trans mounton };
 allow init vendor_file:file { execute execute_no_trans };
 allow init hal_perf_default:binder call;
+allow init sysfs:file setattr;

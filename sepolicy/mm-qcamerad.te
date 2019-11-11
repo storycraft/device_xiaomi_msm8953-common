@@ -9,3 +9,4 @@ allow mm-qcamerad camera_data_file:file create_file_perms;
 allow mm-qcamerad camera_data_file:dir w_dir_perms;
 allow mm-qcamerad sysfs_kgsl:file { getattr open read };
 allow mm-qcamerad fwk_sensor_hwservice:hwservice_manager find;
+allow mm-qcamerad sysfs:file { getattr open read };
