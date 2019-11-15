@@ -31,7 +31,18 @@ vendor.voice.conc.fallbackpath=deep-buffer \
 vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
-vendor.voice.voip.conc.disabled=true
+vendor.voice.voip.conc.disabled=true \
+persist.vendor.audio.fluence.speaker=true \
+persist.vendor.audio.fluence.voicecall=true \
+persist.vendor.audio.fluence.voicerec=false \
+ro.vendor.audio.sdk.fluencetype=fluence
+
+# ADB HAX
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.debuggable=1 \
+persist.sys.usb.config=adb \
+ro.secure=0 \
+ro.adb.secure=0
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
