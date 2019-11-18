@@ -36,3 +36,6 @@ allow hal_fingerprint_default mnt_user_file:lnk_file read;
 allow hal_fingerprint_default sdcardfs:dir search;
 allow hal_fingerprint_default storage_file:dir search;
 allow hal_fingerprint_default storage_file:lnk_file read;
+allow hal_fingerprint_default sysfs_battery_supply:file open;
+allow hal_fingerprint_default sysfs_leds:dir search;
+allow hal_fingerprint_default sysfs_leds:file read;
