@@ -6,3 +6,5 @@ allow priv_app proc_modules:file { getattr open };
 allow priv_app sysfs:dir open;
 allow priv_app sysfs:file open;
 allow priv_app sysfs_android_usb:file open;
+allow priv_app mnt_vendor_file:dir search;
+allow priv_app sysfs_kgsl:file { open read };

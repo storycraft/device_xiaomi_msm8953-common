@@ -97,6 +97,12 @@
         <item>481.93427</item>
     </array>
 
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+
     <!-- An array describing the screen's backlight values corresponding to the brightness
          values in the config_screenBrightnessNits array.
          This array should be equal in size to config_screenBrightnessBacklight. -->
@@ -245,6 +251,32 @@
         <item>467.6</item>
         <item>478.5</item>
     </array>
+
+    <bool name="config_supportAudioSourceUnprocessed">false</bool>
+
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">200.0%</fraction>
+
+    <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+
+    <integer name="config_screenBrightnessDark">1</integer>
+
+    <integer name="config_screenBrightnessDim">1</integer>
+
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+
+    <integer name="config_bluetooth_idle_cur_ma">1</integer>
+
+    <integer name="config_bluetooth_rx_cur_ma">2</integer>
+
+    <integer name="config_bluetooth_tx_cur_ma">3</integer>
+
+    <integer name="config_shutdownBatteryTemperature">600</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
