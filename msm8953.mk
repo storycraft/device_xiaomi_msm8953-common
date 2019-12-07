@@ -180,6 +180,7 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/com.qcom.fmradio.xml:system/etc/permissions/com.qcom.fmradio.xml
 
+# GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     $(LOCAL_PATH)/configs/gps/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
