@@ -14,3 +14,5 @@ allow system_server sysfs_battery_supply:file { getattr open read write };
 allow system_server init:binder call;
 allow system_server sysfs:file { getattr open read };
 allow system_server sdcardfs:file { getattr read };
+
+allow system_server default_android_hwservice:hwservice_manager find;
