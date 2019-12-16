@@ -12,4 +12,4 @@ allow init vendor_file:file { execute execute_no_trans };
 allow init hal_perf_default:binder call;
 allow init sysfs:file setattr;
 allow init hal_power_stats_hwservice:hwservice_manager add;
-
+allow init hal_power_hwservice:hwservice_manager { add };
