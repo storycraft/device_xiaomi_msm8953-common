@@ -1,2 +1,0 @@
-allow init hal_perf_hwservice:hwservice_manager { find };
-allow hal_memtrack_default sysfs_kgsl:lnk_file { read };
