@@ -387,7 +387,7 @@ PRODUCT_PACKAGES += \
 # Whitelisted app
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
-    $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
+    $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
 	$(LOCAL_PATH)/product-permissions/privapp-permissions-qti.xml:system/product/etc/permissions/privapp-permissions-qti.xml
 
 PRODUCT_COPY_FILES += \
