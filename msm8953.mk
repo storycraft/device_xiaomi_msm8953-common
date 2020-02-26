@@ -180,9 +180,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/com.qcom.fmradio.xml:system/etc/permissions/com.qcom.fmradio.xml
 
 # Gatekeeper
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service
+# PRODUCT_PACKAGES += \
+#     android.hardware.gatekeeper@1.0-impl \
+#     android.hardware.gatekeeper@1.0-service
 
 # GPS
 PRODUCT_COPY_FILES += \
