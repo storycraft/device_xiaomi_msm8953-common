@@ -42,8 +42,8 @@ BUILD_BROKEN_DUP_RULES := true
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.usbconfigfs=true
 
-# selinux
-# BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+# Selinux disabled
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 2048
@@ -111,7 +111,6 @@ BOARD_USES_QCNE := true
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
-
 
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
@@ -199,8 +198,8 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab.qcom
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+# include device/qcom/sepolicy-legacy-um/sepolicy.mk
+# BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # We modify several neverallows, so let the build proceed
 ifneq ($(TARGET_BUILD_VARIANT),user)
