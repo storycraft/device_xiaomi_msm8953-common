@@ -14,9 +14,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.msm8953		     u:object_r:hal_light_default_exec:s0
 /(vendor|system/vendor)/bin/hw/lineage\.trust@1\.0-service                               u:object_r:shal_lineage_trust_default_exec:s0
 
-# Cryptfshw
-/(vendor|system/vendor|system/product)/lib64/vendor\.qti\.hardware\.cryptfshw@1\.0\.so   u:object_r:hal_keymaster_qti_default:s0
-
 # Input devices
 /(vendor|system/vendor)/usr/idc(/.*)?                         u:object_r:idc_file:s0
 /(vendor|system/vendor)/usr/keylayout(/.*)?                   u:object_r:keylayout_file:s0
