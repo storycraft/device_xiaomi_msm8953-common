@@ -194,7 +194,7 @@ PRODUCT_COPY_FILES += \
 
 # HW Encryption
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-ioctl-qti
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
 # Healthd
 PRODUCT_PACKAGES += \
