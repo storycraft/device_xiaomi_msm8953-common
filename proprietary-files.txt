@@ -66,6 +66,8 @@ vendor/lib64/libqtigef.so|79e811fd04172b0afda1229d182014be28a146b2
 vendor/lib64/soundfx/libqcbassboost.so|0b92d65381d9722c579ccfda12f86c7e3fcaedd1
 vendor/lib64/soundfx/libqcvirt.so|815b3a7cd762cdb6f162dde12c866acb23cdd022
 
+vendor/lib64/soundfx/asphere.so
+
 # Audio Dirac - from Unknown
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
